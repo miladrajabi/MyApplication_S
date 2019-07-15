@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frgContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Episodes.FragmentActivity">
+
+    <fragment
+        android:id="@+id/frgMain"
+        android:name="com.example.myapplication.fragment.E08Fragment"
+        class="com.example.myapplication.fragment.E08Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></fragment>
+</RelativeLayout>

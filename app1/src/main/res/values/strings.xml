@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My_Application</string>
+
+    <string name="devils_men">Devils Men</string>
+    <string name="devils_men_desc">در خلاصه داستان این فیلم اکشن و مهیج آمده است ، یک کماندوی حرفه‌ای و باتجربه به نا کالینز برای تعقیب و ردیابی یک خلافکار به شهر لندن می‎رود و همین امر باعث می‎شود او وارد جنگی ناخواسته با یک فرمانده‎ی سابق و کل نیروهایش شود و…</string>
+
+    <string name="last_laugh">Last Laugh</string>
+    <string name="last_laugh_desc">نورم از شمال ۲ ، فیلمی انیمیشنی محصول سال ۲۰۱۸ به کارگردانی ریچارد فین و تام مالتبای می‎باشد. در خلاصه داستان قسمت دوم این فیلم آمده است ، نورم یک خرس قطبی و پادشاه قطب شمال ، می‎بایست شهر نیویورک و خانه‎اش را نجات دهد. اما…</string>
+    <string name="norm">Norm</string>
+    <string name="norm_desc">‎ای به نام ال هارت را دنبال می‎کند که بعد از سال‎ها یکی از مشتریان سابق خود به نام بادی گرین را ملاقات می‎کند که پنجاه سال قبل کار کمدی را رها کرده بود. در این بین ال او را متقاعد می‎کند که با هم از خانه‎ی سالمندانی که در آن ساکن هستند فرار کنند و یک تور کمدی در سرتاسر کشور برپا کنند و…</string>
+
+    <string name="pledge">Pledge</string>
+    <string name="pledge_desc">‎باشد. داستان این فیلم درباره‎ی گروهی از تازه‎واردان دانشگاهی است که به یکی از انجمن‎های برادری دعوت می‎شوند. اما آنها پس از مدتی متوجه می‎گردند که فریب خورده‎اند و قضیه فراتر از آن چیزی است که تصور می‎کرده‎اند و…</string>
+    <string name="title_activity_basic">BasicActivity</string>
+    <string name="title_activity_basic_android">BasicAndroidActivity</string>
+    <string name="type_your_message">Type your message ....</string>
+    <string name="firstMessage">Write your first message...</string>
+
+
+</resources>

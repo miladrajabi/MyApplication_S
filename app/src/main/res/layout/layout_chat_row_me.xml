@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="16dp"
+    android:background="@drawable/chat_background">
+
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:lineSpacingExtra="5dp"
+        android:paddingLeft="@dimen/dp16"
+        android:paddingTop="@dimen/dp8"
+        android:paddingRight="@dimen/dp8"
+        android:paddingBottom="@dimen/dp8"
+        android:text="Milad Rajabi"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp16" />
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgSeen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/dp4"
+        android:tint="@color/colorPrimary"
+        app:srcCompat="@drawable/ic_done_all_black_24dp" />
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/imgSeen"
+        android:padding="@dimen/dp8"
+        android:text="19:18:20"
+        android:textColor="@color/chatSendColor" />
+
+
+</RelativeLayout>

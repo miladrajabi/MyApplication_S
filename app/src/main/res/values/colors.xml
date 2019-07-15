@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="rclOverLay">#aa212121</color>
+    <color name="White">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="chatBG">#66CCCCCC</color>
+    <color name="chatSendColor">#2A417E</color>
+    <color name="LightGray">#969696</color>
+    <color name="Seprator">#448a8a8c</color>
+</resources>

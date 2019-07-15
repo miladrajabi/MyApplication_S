@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/imgBack"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/dp8"
+                android:background="?selectableItemBackgroundBorderless"
+                android:padding="@dimen/dp8"
+                android:tint="@color/White"
+                app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Milad Rajabi"
+                android:textColor="@color/White"
+                android:textSize="@dimen/sp16"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/chat_bg" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rclChat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/appBar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/firstNoMessage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appBar"
+        android:gravity="center"
+        android:text="@string/firstMessage"
+        android:textSize="@dimen/sp16" />
+
+    <RelativeLayout
+        android:id="@+id/chateWriteContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/White"
+        android:paddingLeft="@dimen/dp8"
+        android:paddingTop="@dimen/dp8"
+        android:paddingBottom="@dimen/dp8">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/appEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@id/imgSend"
+            android:layout_toLeftOf="@id/imgSend"
+            android:hint="@string/type_your_message"
+            android:maxLines="5"
+            android:padding="@dimen/dp16" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/imgSend"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="@dimen/dp8"
+            android:rotation="-45"
+            android:tint="@color/chatSendColor"
+            app:srcCompat="@drawable/ic_send_black_24dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

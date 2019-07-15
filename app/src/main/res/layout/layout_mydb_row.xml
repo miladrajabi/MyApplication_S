@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/White">
+
+    <RelativeLayout
+        android:id="@+id/mydbParent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:padding="@dimen/dp16">
+
+        <TextView
+            android:id="@+id/txtNumber"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="@drawable/mydb_backfround"
+            android:gravity="center"
+            android:textColor="@color/White"
+            android:textSize="@dimen/sp16" />
+
+        <TextView
+            android:id="@+id/txtFname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/dp8"
+            android:layout_toRightOf="@id/txtNumber"
+            android:padding="@dimen/dp4"
+            android:text="@string/sampleText"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/txtMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtFname"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/dp8"
+            android:layout_toRightOf="@id/txtNumber"
+            android:ellipsize="marquee"
+            android:padding="@dimen/dp4"
+            android:singleLine="true"
+            android:text="@string/sampleText"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/imgSeen"
+            android:layout_width="32dp"
+            android:layout_height="27dp"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/dp4"
+            app:srcCompat="@drawable/ic_remove_red_eye_black_24dp" />
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/mydbParent"
+        android:background="@color/colorPrimaryDark"
+
+        ></View>
+</RelativeLayout>
